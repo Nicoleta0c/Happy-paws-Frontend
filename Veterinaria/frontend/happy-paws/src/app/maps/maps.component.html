@@ -1,0 +1,39 @@
+<div class="w-full h-full">
+    <div class=" grid grid-cols-1">
+      <div class="flex flex-col items-center justify-center gap-y-10">
+        <div class="flex items-center justify-center">
+          <p class="font-tipografia-Inter text-4xl max-sm:hidden text-button font-bold">Respondemos tus preguntas!</p>
+          <p class="sm:hidden font-tipografia-Inter text-3xl text-button font-bold">Respondemos tus <br> preguntas!</p>
+        </div>
+  
+        <div class="flex max-sm:flex-col max-sm:items-start max-sm:gap-y-5 gap-x-4 items-center justify-center pb-32 max-sm:pb-0">
+  
+          <div class="flex items-center justify-center">
+            <img class="w-14 h-14 max-lg:w-12 max-lg:h-12" src="../../assets/imagenes/llamada.png" alt="" srcset="">
+            <p class="text-xl max-sm:text-lg pl-2 font-semibold">+54 11 6253-4423</p>
+          </div>
+          <div class="flex items-center justify-center">
+            <img class="w-14 h-14 max-lg:w-12 max-lg:h-12" src="../../assets/imagenes/correo-electronico.png" alt="" srcset="">
+             <p class="sm:hidden lg:block text-xl max-sm:text-lg pl-2 font-semibold">infohappypaws@gmail.com</p>
+            <p class="text-xl max-sm:hidden lg:hidden pl-2 font-semibold">infohappy<br>paws@gmail.com</p>
+          </div>
+          <div class="flex items-center justify-center">
+            <img class="w-14 h-14 max-lg:w-12 max-lg:h-12" src="../../assets/imagenes/ubicacion.png" alt="" srcset="">
+            <p class="text-xl max-sm:text-lg pl-2 font-semibold">Avenida siempreviva 742</p>
+          </div>
+        </div>
+        <div class="sm:hidden py-10 w-full bg-info_primary">
+        </div>
+
+        <div class="bg-info_primary h-[40%] w-full max-sm:hidden -z-50">
+          <div
+          class="map-container rounded-lg relative bottom-32 z-50"
+          id="map"
+          leaflet
+          [leafletOptions]="leafletOptions"
+        >       </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>

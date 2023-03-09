@@ -1,0 +1,31 @@
+@import "~leaflet/dist/leaflet.css";
+
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+::-webkit-scrollbar {
+  /* width: 14px; */
+  overflow: hidden;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:rgb(237, 236, 236);
+  border-radius: 36px;
+  margin: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(32, 100, 119);
+  border-radius: 36px;
+  border: 4px solid rgba(0,0,0,0);
+  background-clip: padding-box;
+  overflow: hidden;
+}
+

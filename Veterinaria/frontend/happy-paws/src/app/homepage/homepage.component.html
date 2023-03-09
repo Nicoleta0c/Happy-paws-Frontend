@@ -1,0 +1,63 @@
+<div id="overflow" class="custom-gradient h-full w-full overflow-hidden">
+  <div id="hero" class="grid max-sm:grid-cols-1 sm:grid-cols-2 gap-4">
+    <div class="sm:hidden">
+      <img
+        class="sm:hidden"
+        src="../../assets/imagenes/PerritoPatitas.png"
+        alt=""
+      />
+    </div>
+    <div
+      id="link-principal"
+      class="sm:columns-3 px-4 py-4 flex items-center justify-center flex-col mx-auto container"
+    >
+      <!-- Maas de 640px -->
+      <p
+        id="editar"
+        class="sm:text-3xl sm:mr-8 md:mr-0 md:text-4xl max-sm:hidden lg:text-5xl lg:mr-32 2xl:text-7xl 2xl:mr-0 font-bold text-button font-tipografia-Inter"
+      >
+        Patitas sanas<br />y felices
+      </p>
+      <p
+        id="text1"
+        class="py-5 font-normal max-lg:hidden lg:mr-0 2xl:text-3xl 2xl:ml-20 text-2xl flex items-center"
+      >
+        De lo más simple a lo más complejo, <br />
+        nosotros nos encargamos de solucionar <br />
+        cualquier problema que enfrente la <br />
+        salud de su mascota.
+      </p>
+      <!-- Menos de 640px -->
+      <p class="sm:hidden text-3xl font-bold text-button font-tipografia-Inter">
+        Patitas sanas y felices
+      </p>
+      <p
+        class="py-2 px-2 sm:w-[300px] md:w-[350px] sm:ml-14 lg:hidden md:ml-28 font-normal sm:text-base md:text-xl flex items-start"
+      >
+        De lo más simple a lo más complejo, nosotros nos encargamos de
+        solucionar cualquier problema que enfrente la salud de su mascota.
+      </p>
+      <button
+        id="editar1"
+        class="max-sm:w-full sm:mr-14 lg:mr-64 rounded-lg bg-button text-white font-bold font-tipografia-Inter sm:py-3 max-sm:py-4 md:py-4 px-8 2xl:py-5 2xl:text-lg hover:bg-button_nigga"
+        routerLinkActive="active" routerLink="/crear-cita"
+      >
+        Reserva online
+      </button>
+    </div>
+    <div class="">
+      <img
+        src="../../assets/imagenes/Mask group (1).png"
+        class="max-sm:hidden object-contain object-right-top w-full"
+        srcset=""
+      />
+    </div>
+  </div>
+</div>
+
+<app-infobody></app-infobody>
+
+<app-carrosuel></app-carrosuel>
+
+<app-maps></app-maps>
+

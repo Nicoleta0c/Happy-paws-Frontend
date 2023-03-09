@@ -1,0 +1,19 @@
+<svg width="98" height="96" viewBox="0 0 98 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="96" height="78" rx="1" stroke="#44474A" stroke-width="2"/>
+<line x1="81" y1="7" x2="89" y2="7" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="89" y1="16" x2="89" y2="8" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="9" y2="-1" transform="matrix(-1 0 0 1 18 8)" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="9" y2="-1" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 8 17)" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="17" y1="61" x2="9" y2="61" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="9" y1="52" x2="9" y2="60" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="9" y2="-1" transform="matrix(1 0 0 -1 80 60)" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="9" y2="-1" transform="matrix(-4.37114e-08 1 1 4.37114e-08 90 51)" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.8972 18.1028L15.3913 38.6086C29.8654 46.2846 40.6979 50.0136 50.7421 50C60.7478 49.9863 70.1201 46.2569 81.676 38.6761L61.3488 18.3489C57.1716 21.3439 53.5455 22.9539 49.5806 22.9599C45.5164 22.9661 41.2721 21.2842 35.8972 18.1028ZM13.0214 38.7925C12.9542 38.473 13.0447 38.1268 13.2929 37.8787L34.8786 16.2929C35.1269 16.0446 35.4734 15.9542 35.7931 16.0216C36.0315 15.9712 36.2887 16.0072 36.5142 16.1423C42.0128 19.4391 45.9768 20.9654 49.5775 20.9599C53.0619 20.9546 56.3817 19.5124 60.5965 16.424C60.629 16.378 60.6659 16.3341 60.7071 16.2929C60.913 16.087 61.1863 15.9897 61.456 16.0009C61.7759 15.9871 62.0968 16.1269 62.3023 16.4031C62.3439 16.4591 62.3788 16.5179 62.4071 16.5787L83.7071 37.8787C83.9552 38.1268 84.0457 38.4729 83.9785 38.7925C84.0609 39.1816 83.9051 39.599 83.5538 39.8326C71.4957 47.8527 61.5372 51.9853 50.7448 52C39.981 52.0146 28.5433 47.9312 13.5275 39.8813C13.1262 39.6662 12.9314 39.2166 13.0214 38.7925Z" fill="#44474A"/>
+<line x1="1" y1="66" x2="97" y2="66" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="59.4142" y1="79" x2="69" y2="88.5858" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="14.5563" y2="-1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 38 79)" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="23" y1="95" x2="74" y2="95" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="23" y1="89" x2="74" y2="89" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="74" y1="89" x2="74" y2="95" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+<line x1="23" y1="89" x2="23" y2="95" stroke="#44474A" stroke-width="2" stroke-linecap="round"/>
+</svg>

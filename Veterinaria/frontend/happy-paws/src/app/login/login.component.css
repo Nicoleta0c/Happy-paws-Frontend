@@ -1,0 +1,5 @@
+.custom-gradient {
+    background-image: linear-gradient(180deg, #DEF1FF 82.52%, rgba(118, 120, 122, 0) 99.97%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
