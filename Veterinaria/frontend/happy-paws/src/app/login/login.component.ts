@@ -27,10 +27,10 @@ const httpOptions = {
 export class LoginComponent implements OnInit {
 
   constructor(
-    private http: HttpClient, 
-    private router: Router, 
+    private http: HttpClient,
+    private router: Router,
     private cookieService: CookieService,
-    private appService: AppService) { 
+    private appService: AppService) {
     }
 
   ngOnInit(): void {
@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
 
   // AQUI SE DEBE CAMBIAR LA LINEA PARA QUE LLEGUE AL BACKEND DEPLOYADO
   // EL BACKEND EN LA DIRECCION NUEVA
-  loginUrl = "https://nocountry-09-04-production.up.railway.app/login";
+  loginUrl = "happy-paws-backend-production.up.railway.app";
 
   checkLogin(user: any) {
     return this.http.post(this.loginUrl, user, {
@@ -82,7 +82,7 @@ export class LoginComponent implements OnInit {
   onSubmit() {
     this.checkLogin(this.loginForm.value)
       .subscribe(res => {
-        this.appService.setIsSignedIn(true);     
+        this.appService.setIsSignedIn(true);
         this.router.navigate(['/crear-cita']);
       });
   }
