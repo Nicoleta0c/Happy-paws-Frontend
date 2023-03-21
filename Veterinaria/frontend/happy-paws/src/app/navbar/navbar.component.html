@@ -4,12 +4,12 @@
         <img id="logo" class="w-24 h-20 md:w-28 md:h-24" src="../../assets/imagenes/Logo.png" alt="Happy Paws"/>
       </div>
 
-      <div class="col-span-4 flex items-center justify-end sm:text-base sm:gap-x-3 md:text-lg md:gap-x-5 lg:text-xl xl:gap-x-8 xl:text-2xl 2xl:text-4xl ">
+      <div class="col-span-4 flex items-center justify-end sm:text-base sm:gap-x-3 md:text-lg md:gap-x-5 lg:text-xl xl:gap-x-8 xl:text-2xl 2xl:text-3xl ">
             <a routerLinkActive="active" routerLink="/"  class="cursor-pointer max-md:px-3 max-sm:text-xl">Quienes somos</a>
             <a (click)="this.scrollToElement('link-especialidades')" class="cursor-pointer max-sm:hidden ">Especialidades</a>
             <a (click)="this.scrollToElement('link-Reseñas')"  class="cursor-pointer max-sm:hidden">Reseñas</a>
             <a (click)="this.scrollToElement('link-Contacto')" class="cursor-pointer max-sm:hidden">Contacto</a>
-            
+
           <div *ngIf="signedIn; then thenBlock; else elseBlock"></div>
           <ng-template #thenBlock>
             <app-logout></app-logout>
@@ -23,4 +23,3 @@
     </div>
   </nav>
 
-  

@@ -6,39 +6,39 @@
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Nuestras Especialidades</p>
             <p class="py-2 px-2 w-[344px] font-normal flex items-start">Contamos con variedades de especialidades,<br> de acuerdo a las necesidades de tu mascota</p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Ultrasonido.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Ultrasonido</p>
             <p class="py-2 px-2 w-[350px] font-normal flex items-start">Contamos con ecógrafos de ultima generación manejados por personal capacitado para proporcionarle la toda información importante sobre el estado interno de sus mascotas como su vez un chequeo prenatal, ante la presencia de un animal con principios de embarazos. </p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Cardiologia.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Cardiologia</p>
             <p class="py-2 px-2 w-[350px] font-normal flex items-start">Nuestro cardiólogo especializado se encargara de vigilar, diagnosticar y tratar los problemas del corazón de nuestras mascotas.
                 Es importante para nosotros que los animales tengan una mejor calidad de vida y prevenir la aparición de problemas cardiovasculares.</p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Laboratorio.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Laboratorio</p>
             <p class="py-2 px-2 w-[350px] font-normal flex items-start">Nuestro laboratorios equipados nos permite hacer un trabajo de carácter completo, ya que contamos con el instrumental y la técnica adecuada para  analizar las muestras de tu animal, facilitando un diagnóstico más preciso. </p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Rayos x.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Rayos X</p>
             <p class="py-2 px-2 w-[350px] font-normal flex items-start">Usamos los equipos de mayor avance tecnológico para poder brindar un servicio de alta calidad y valor diagnóstico.
                 Las radiografías son en formato digital y se envían en el momento por Whatsapp o vía mail.</p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Esterilizacion.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Esterilizacion</p>
             <p class="py-2 px-2 w-[350px] font-normal flex items-start">La esterilización de los animales de compañía es importante, es un beneficio tanto para el dueño como para el animal. Por eso ofrecemos un equipo de veterinarios capacitados que realizará un examen clínico básico para decidir si tu animal de compañía está en condiciones de ser sometido a la intervención.</p>
         </div>
-  
+
         <div class="px-4 py-4 flex items-center justify-center flex-col mx-auto container">
             <img src="../../assets/imagenes/Vacunacion.png" alt="" srcset="">
             <p class="text-2xl font-bold text-button font-tipografia-Inter">Vacunacion</p>
@@ -46,61 +46,61 @@
         </div>
     </div>
   </div>
-  
-  
+
+
   <!-- Para tablet mas de 768px a computadoras -->
-  
+
   <div class="h-full w-full max-sm:hidden">
     <div class="grid grid-cols-1">
-  
+
         <div id="link-especialidades" class="pt-20 flex items-center justify-center flex-col mx-auto container">
             <p  class="text-4xl font-bold text-button font-tipografia-Inter">Nuestras Especialidades</p>
             <p  class="px-3 pt-5 text-xl font-normal font-tipografia-Inter">Contamos con variedades de especialidades, de acuerdo a las necesidades de tu mascota.</p>
         </div>
-  
+
         <div  class="mx-auto container pt-10 sm:gap-8 flex flex-wrap lg:gap-x-1">
             <div (click)="tabChange('create')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button  hover:text-white lg:w-[150px]">
                 <img id="svg" class="h-[62%]" src="../../assets/imagenes/vacunacion.svg"  alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal pt-2">vacunación</p>
             </div>
-  
+
             <div (click)="tabChange('read')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button hover:text-white lg:w-[150px] lg:py-2 lg:pb-3">
                 <img id="svg" src="../../assets/imagenes/Esterilizacion.svg" alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal">Esterilización</p>
             </div>
-  
+
             <div (click)="tabChange('Ultrasonido')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button hover:text-white lg:w-[150px]">
                 <img id="svg" src="../../assets/imagenes/Ultrasonido.svg" alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal pt-2">Ultrasonido</p>
             </div>
-  
+
             <div (click)="tabChange('Rayos')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button hover:text-white lg:w-[150px]">
                 <img id="svg" src="../../assets/imagenes/Rayos.svg" alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal">Rayos X</p>
             </div>
-  
+
             <div (click)="tabChange('Laboratorio')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button hover:text-white lg:w-[150px]">
                 <img id="svg" class="" src="../../assets/imagenes/Laboratorio.svg" alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal pt-2">Laboratorio</p>
             </div>
-  
+
             <div (click)="tabChange('Cardiologia')" class="mx-auto container bg-info_primary w-[170px] h-[160px] rounded-2xl flex flex-col justify-center items-center hover:bg-button hover:text-white lg:w-[150px]">
                 <img id="svg" src="../../assets/imagenes/cardiologia.svg" alt="" srcset="">
                 <p class="text-xl font-tipografia-Inter
                  font-normal">Cardiologia</p>
             </div>
     </div>
-  
+
     <!-- Informacion dentro -->
-  
+
     <div class="w-full px-2 pt-5 mx-auto container lg:w-[92%] ">
         <div *ngIf="id === 'create'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
             <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
                 <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
                  font-normal">vacunación</p>
@@ -109,13 +109,13 @@
             <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
                 <img class="h-full" src="../../assets/imagenes/VacunacionIMG.png" alt="">
             </div>
-  
+
         </div>
-  
-  
-  
+
+
+
         <div *ngIf="id === 'read'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
           <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
               <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
                font-normal">Esterilización</p>
@@ -124,12 +124,12 @@
           <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
               <img class="h-full" src="../../assets/imagenes/EsterilizacionIMG.png" alt="">
           </div>
-  
+
       </div>
-  
-  
+
+
         <div *ngIf="id === 'Ultrasonido'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
         <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
             <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
              font-normal">Ultrasonido</p>
@@ -138,11 +138,11 @@
         <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
             <img class="h-full" src="../../assets/imagenes/UltrasonidoIMG.png" alt="">
         </div>
-  
+
        </div>
-  
+
        <div *ngIf="id === 'Rayos'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
         <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
             <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
              font-normal">Rayos X</p>
@@ -151,25 +151,25 @@
         <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
             <img class="h-full" src="../../assets/imagenes/RayosIMG.png" alt="">
         </div>
-  
+
        </div>
-  
-  
+
+
        <div *ngIf="id === 'Laboratorio'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
         <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
             <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
-             font-normal">Ultrasonido</p>
+             font-normal">Laboratorio</p>
             <p class="px-2 text-white text-lg lg:text-2xl font-normal font-tipografia-Inter">Nuestro laboratorios equipados nos permite hacer un trabajo de carácter completo, ya que contamos con el instrumental y la técnica adecuada para  analizar las muestras de tu animal, facilitando un diagnóstico más preciso.</p>
         </div>
         <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
             <img class="h-full" src="../../assets/imagenes/LaboratorioIMG.png" alt="">
         </div>
-  
+
        </div>
-  
+
        <div *ngIf="id === 'Cardiologia'" class="grid grid-cols-2 bg-button rounded-2xl">
-  
+
         <div class="flex flex-col justify-center items-center py-6 lg:pb-6 lg:px-10">
             <p class="text-2xl px-2 lg:py-10 lg:text-4xl md:pb-3 text-white pt-5 font-tipografia-Inter
              font-normal">Cardiologia</p>
@@ -179,11 +179,11 @@
         <div class="h-full py-6 lg:py-10 px-2 lg:px-10 rounded-lg lg:rounded-3xl flex justify-center items-center">
             <img class="h-full" src="../../assets/imagenes/CardiologiaIMG.png" alt="">
         </div>
-  
+
        </div>
 
-  
+
     </div>
-  
+
   </div>
   </div>
