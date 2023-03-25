@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
 
   // AQUI SE DEBE CAMBIAR LA LINEA PARA QUE LLEGUE AL BACKEND DEPLOYADO
   // EL BACKEND EN LA DIRECCION NUEVA
-  // loginUrl = "happy-paws-backend-production.up.railway.app";
+  // loginUrl = "https://happy-paws-backend-production.up.railway.app";
   loginUrl = "https://nocountry-09-04-production.up.railway.app/login";
 
   checkLogin(user: any) {
